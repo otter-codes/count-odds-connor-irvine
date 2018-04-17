@@ -11,6 +11,10 @@ class CountOddsSpec extends WordSpec with MustMatchers {
     "return 4 when given an input of 8" in {
       CountOdds.counter(8) mustEqual 4
     }
+
+    "return 3 when given an input of 7" in {
+      CountOdds.counter(7) mustEqual 3
+    }
   }
 
 }
