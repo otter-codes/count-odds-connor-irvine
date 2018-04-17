@@ -1,5 +1,7 @@
-object Hello extends App {
+object CountOdds extends App {
 
-  def greet : String = "hello"
+  def input : Int ={
+    1
+  }
 
 }

@@ -1,11 +1,11 @@
 import org.scalatest._
 
-class HelloSpec extends WordSpec with MustMatchers {
+class CountOdds extends WordSpec with MustMatchers {
 
-  "Hello" must {
+  "CountOdds" must {
 
-    "say hello" in {
-      Hello.greet mustEqual "hello"
+    "return 1 when given an input of 2" in {
+      CountOdds.input mustEqual 1
     }
 
   }
